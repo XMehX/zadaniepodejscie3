@@ -1,0 +1,86 @@
+*{
+	font-family: helvetica;
+	font-size: 104%
+}
+body{
+	background-color: #CCCCCC;
+}
+#baner{
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	height: 200px;
+	color: white;
+	background-color: #666666;
+	margin-bottom: 5px;
+	font-size: 250%;
+}
+#lewo, #prawo{
+	color: white;
+	background-color: #999999;
+	width: 50%;
+	float: left;
+	height: 750px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	font-size: 200%;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+a:hover{
+	color: #666666;
+	font-size: 150%;
+}
+#gora{
+	height: 200px;
+	width: 70%;
+	color: white;
+	background-color: #666666;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	margin-bottom: 5px;
+	border-radius: 5px;
+	font-size: 250%;
+}
+#tresc{
+	width: 70%;
+	color: white;
+	background-color: #999999;
+	padding-top: 10px;
+	border-radius: 5px;
+	padding-bottom: 15px;
+}
+p{
+	text-align: left;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+#nazwa{
+	text-align: center;
+	font-size: 125%;
+	color: #666666;
+	font-weight: bold;
+}
+li{
+	text-align: left;
+	padding-top: 5px;
+}
+ul{
+	list-style-type: square;
+	padding-top: 10px;
+	font-size: 80%;
+}
+ol{
+	padding-left: 38%;
+}
+#wysrodkowanie{
+	padding-left: 44%;
+}
+img{
+	box-shadow: 10px 10px 10px #333333;
+	border-radius: 5%;
+}
